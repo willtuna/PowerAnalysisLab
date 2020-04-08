@@ -62,18 +62,11 @@ int main(void)
 
     /* Uncomment this to get a HELLO message for debug */
 
-    putch('h');
-    putch('e');
-    putch('l');
-    putch('l');
-    putch('o');
-    putch('\n');
-
 	simpleserial_init();
-    simpleserial_addcmd('k', 16, get_key);
-    simpleserial_addcmd('p', 16,  get_pt);
-    simpleserial_addcmd('x',  0,   reset);
-    simpleserial_addcmd('m', 18, get_mask);
+    simpleserial_addcmd('k', 16, get_key);// set encryption key
+    simpleserial_addcmd('p', 16,  get_pt);// send input plain-text
+    simpleserial_addcmd('x',  0,   reset);// clear buffer to idle set
+    simpleserial_addcmd('m', 18, get_mask);// select cipher mode
     while(1)
         simpleserial_get();
 }

@@ -146,7 +146,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000      0xcac
+.text           0x0000000000000000      0xc88
  *(.vectors)
  .vectors       0x0000000000000000      0x1c8 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/crtatxmega128d3.o
                 0x0000000000000000                __vectors
@@ -378,55 +378,55 @@ END GROUP
  .text          0x0000000000000bf6        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/libc.a(memcpy.o)
                 0x0000000000000bf6                . = ALIGN (0x2)
  *(.text.*)
- .text.startup  0x0000000000000bf6       0xa0 objdir/simpleserial-aes.o
+ .text.startup  0x0000000000000bf6       0x7c objdir/simpleserial-aes.o
                 0x0000000000000bf6                main
  .text.libgcc.mul
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  .text.libgcc.div
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
- .text.libgcc   0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+ .text.libgcc   0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  .text.libgcc.prologue
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  .text.libgcc.builtins
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  .text.libgcc.fmul
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  .text.libgcc.fixed
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  .text.libgcc.mul
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
  .text.libgcc.div
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
- .text.libgcc   0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+ .text.libgcc   0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
  .text.libgcc.prologue
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
  .text.libgcc.builtins
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
  .text.libgcc.fmul
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
  .text.libgcc.fixed
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_copy_data.o)
  .text.libgcc.mul
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
  .text.libgcc.div
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
- .text.libgcc   0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
  .text.libgcc.prologue
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
  .text.libgcc.builtins
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
  .text.libgcc.fmul
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
  .text.libgcc.fixed
-                0x0000000000000c96        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
+                0x0000000000000c72        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_clear_bss.o)
  .text.avr-libc
-                0x0000000000000c96       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/libc.a(memcpy.o)
-                0x0000000000000c96                memcpy
-                0x0000000000000ca8                . = ALIGN (0x2)
+                0x0000000000000c72       0x12 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/libc.a(memcpy.o)
+                0x0000000000000c72                memcpy
+                0x0000000000000c84                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000000ca8        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
-                0x0000000000000ca8                exit
-                0x0000000000000ca8                _exit
+ .fini9         0x0000000000000c84        0x0 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+                0x0000000000000c84                exit
+                0x0000000000000c84                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -445,11 +445,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000000ca8        0x4 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
+ .fini0         0x0000000000000c84        0x4 /usr/lib/gcc/avr/5.4.0/avrxmega6/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000000cac                _etext = .
+                0x0000000000000c88                _etext = .
 
-.data           0x0000000000802000       0x20 load address 0x0000000000000cac
+.data           0x0000000000802000       0x20 load address 0x0000000000000c88
                 0x0000000000802000                PROVIDE (__data_start, .)
  *(.data)
  .data          0x0000000000802000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/crtatxmega128d3.o
@@ -504,8 +504,8 @@ END GROUP
  COMMON         0x0000000000802054       0xb0 objdir/aes-independant.o
                 0x0000000000802054                ctx
                 0x0000000000802104                PROVIDE (__bss_end, .)
-                0x0000000000000cac                __data_load_start = LOADADDR (.data)
-                0x0000000000000ccc                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000000c88                __data_load_start = LOADADDR (.data)
+                0x0000000000000ca8                __data_load_end = (__data_load_start + SIZEOF (.data))
 
 .noinit         0x0000000000802104        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)
@@ -614,19 +614,19 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x4587
+.debug_info     0x0000000000000000     0x4503
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000     0x2168 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/crtatxmega128d3.o
- .debug_info    0x0000000000002168      0x560 objdir/simpleserial-aes.o
- .debug_info    0x00000000000026c8      0x455 objdir/simpleserial.o
- .debug_info    0x0000000000002b1d      0x39c objdir/uart.o
- .debug_info    0x0000000000002eb9      0x584 objdir/usart_driver.o
- .debug_info    0x000000000000343d      0x336 objdir/xmega_hal.o
- .debug_info    0x0000000000003773      0x1e3 objdir/aes-independant.o
- .debug_info    0x0000000000003956      0x447 objdir/aes_enc.o
- .debug_info    0x0000000000003d9d      0x5db objdir/aes_keyschedule.o
- .debug_info    0x0000000000004378       0x94 objdir/aes_sbox.o
- .debug_info    0x000000000000440c      0x17b objdir/aes128_enc.o
+ .debug_info    0x0000000000002168      0x4dc objdir/simpleserial-aes.o
+ .debug_info    0x0000000000002644      0x455 objdir/simpleserial.o
+ .debug_info    0x0000000000002a99      0x39c objdir/uart.o
+ .debug_info    0x0000000000002e35      0x584 objdir/usart_driver.o
+ .debug_info    0x00000000000033b9      0x336 objdir/xmega_hal.o
+ .debug_info    0x00000000000036ef      0x1e3 objdir/aes-independant.o
+ .debug_info    0x00000000000038d2      0x447 objdir/aes_enc.o
+ .debug_info    0x0000000000003d19      0x5db objdir/aes_keyschedule.o
+ .debug_info    0x00000000000042f4       0x94 objdir/aes_sbox.o
+ .debug_info    0x0000000000004388      0x17b objdir/aes128_enc.o
 
 .debug_abbrev   0x0000000000000000     0x2cad
  *(.debug_abbrev)
@@ -642,20 +642,20 @@ END GROUP
  .debug_abbrev  0x0000000000002b77       0x5d objdir/aes_sbox.o
  .debug_abbrev  0x0000000000002bd4       0xd9 objdir/aes128_enc.o
 
-.debug_line     0x0000000000000000      0xd23
+.debug_line     0x0000000000000000      0xcff
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/crtatxmega128d3.o
- .debug_line    0x000000000000001a      0x1c6 objdir/simpleserial-aes.o
- .debug_line    0x00000000000001e0      0x233 objdir/simpleserial.o
- .debug_line    0x0000000000000413        0x0 objdir/XMEGA_AES_driver.o
- .debug_line    0x0000000000000413      0x113 objdir/uart.o
- .debug_line    0x0000000000000526      0x220 objdir/usart_driver.o
- .debug_line    0x0000000000000746       0xca objdir/xmega_hal.o
- .debug_line    0x0000000000000810       0xdc objdir/aes-independant.o
- .debug_line    0x00000000000008ec      0x1e0 objdir/aes_enc.o
- .debug_line    0x0000000000000acc      0x173 objdir/aes_keyschedule.o
- .debug_line    0x0000000000000c3f       0x49 objdir/aes_sbox.o
- .debug_line    0x0000000000000c88       0x9b objdir/aes128_enc.o
+ .debug_line    0x000000000000001a      0x1a2 objdir/simpleserial-aes.o
+ .debug_line    0x00000000000001bc      0x233 objdir/simpleserial.o
+ .debug_line    0x00000000000003ef        0x0 objdir/XMEGA_AES_driver.o
+ .debug_line    0x00000000000003ef      0x113 objdir/uart.o
+ .debug_line    0x0000000000000502      0x220 objdir/usart_driver.o
+ .debug_line    0x0000000000000722       0xca objdir/xmega_hal.o
+ .debug_line    0x00000000000007ec       0xdc objdir/aes-independant.o
+ .debug_line    0x00000000000008c8      0x1e0 objdir/aes_enc.o
+ .debug_line    0x0000000000000aa8      0x173 objdir/aes_keyschedule.o
+ .debug_line    0x0000000000000c1b       0x49 objdir/aes_sbox.o
+ .debug_line    0x0000000000000c64       0x9b objdir/aes128_enc.o
 
 .debug_frame    0x0000000000000000      0x4b0
  *(.debug_frame)
@@ -669,31 +669,31 @@ END GROUP
  .debug_frame   0x00000000000003f0       0x9c objdir/aes_keyschedule.o
  .debug_frame   0x000000000000048c       0x24 objdir/aes128_enc.o
 
-.debug_str      0x0000000000000000     0x207a
+.debug_str      0x0000000000000000     0x2073
  *(.debug_str)
  .debug_str     0x0000000000000000     0x1641 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avrxmega6/crtatxmega128d3.o
- .debug_str     0x0000000000001641      0x2de objdir/simpleserial-aes.o
-                                        0x312 (size before relaxing)
- .debug_str     0x000000000000191f       0x8d objdir/simpleserial.o
-                                        0x246 (size before relaxing)
- .debug_str     0x00000000000019ac       0x22 objdir/XMEGA_AES_driver.o
-                                        0x101 (size before relaxing)
- .debug_str     0x00000000000019ce      0x157 objdir/uart.o
-                                        0x3c4 (size before relaxing)
- .debug_str     0x0000000000001b25      0x25d objdir/usart_driver.o
-                                        0x45b (size before relaxing)
- .debug_str     0x0000000000001d82      0x114 objdir/xmega_hal.o
-                                        0x363 (size before relaxing)
- .debug_str     0x0000000000001e96       0x51 objdir/aes-independant.o
-                                        0x1e2 (size before relaxing)
- .debug_str     0x0000000000001ee7       0xbd objdir/aes_enc.o
-                                        0x231 (size before relaxing)
- .debug_str     0x0000000000001fa4       0xa0 objdir/aes_keyschedule.o
-                                        0x250 (size before relaxing)
- .debug_str     0x0000000000002044        0xb objdir/aes_sbox.o
-                                        0x16b (size before relaxing)
- .debug_str     0x000000000000204f       0x2b objdir/aes128_enc.o
-                                        0x1ce (size before relaxing)
+ .debug_str     0x0000000000001641      0x2cb objdir/simpleserial-aes.o
+                                        0x2ff (size before relaxing)
+ .debug_str     0x000000000000190c       0x99 objdir/simpleserial.o
+                                        0x23f (size before relaxing)
+ .debug_str     0x00000000000019a5       0x22 objdir/XMEGA_AES_driver.o
+                                         0xfa (size before relaxing)
+ .debug_str     0x00000000000019c7      0x157 objdir/uart.o
+                                        0x3bd (size before relaxing)
+ .debug_str     0x0000000000001b1e      0x25d objdir/usart_driver.o
+                                        0x454 (size before relaxing)
+ .debug_str     0x0000000000001d7b      0x114 objdir/xmega_hal.o
+                                        0x35c (size before relaxing)
+ .debug_str     0x0000000000001e8f       0x51 objdir/aes-independant.o
+                                        0x1db (size before relaxing)
+ .debug_str     0x0000000000001ee0       0xbd objdir/aes_enc.o
+                                        0x22a (size before relaxing)
+ .debug_str     0x0000000000001f9d       0xa0 objdir/aes_keyschedule.o
+                                        0x249 (size before relaxing)
+ .debug_str     0x000000000000203d        0xb objdir/aes_sbox.o
+                                        0x164 (size before relaxing)
+ .debug_str     0x0000000000002048       0x2b objdir/aes128_enc.o
+                                        0x1c7 (size before relaxing)
 
 .debug_loc      0x0000000000000000     0x1271
  *(.debug_loc)
@@ -920,7 +920,6 @@ memcpy                                            /usr/lib/gcc/avr/5.4.0/../../.
                                                   objdir/aes_keyschedule.o
 output_ch_0                                       objdir/uart.o
                                                   objdir/simpleserial.o
-                                                  objdir/simpleserial-aes.o
 platform_init                                     objdir/xmega_hal.o
                                                   objdir/simpleserial-aes.o
 rc_tab                                            objdir/aes_keyschedule.o
