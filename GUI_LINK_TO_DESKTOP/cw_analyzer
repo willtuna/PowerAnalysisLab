@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=/usr/bin/python /home/cwuser/Desktop/chipwhisperer_oasis_lab/software/CWAnalyzer.pyw
+Name[en_CA]=ChipWhisperer Analyzer
+Terminal=false
+Icon=/home/cwuser/Desktop/chipwhisperer_oasis_lab/software/chipwhisperer/common/ui/images/cwiconA.png
+Path=/home/cwuser/Desktop/chipwhisperer_oasis_lab/software/
+GenericName=ChipWhisperer Analyzer Tool
+Comment[en_CA]=ChipWhisperer Analyzer Tool
