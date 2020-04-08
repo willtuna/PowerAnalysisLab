@@ -1,9 +1,9 @@
 [Desktop Entry]
 Type=Application
-Exec=/usr/bin/python /home/cwuser/Desktop/chipwhisperer_oasis_lab/software/CWCapture.pyw
+Exec=/usr/bin/python /home/cwuser/Desktop/PowerAnalysisLab/software/CWCapture.pyw
 Name[en_CA]=ChipWhisperer Capture
 Terminal=false
-Icon=/home/cwuser/Desktop/chipwhisperer_oasis_lab/software/chipwhisperer/common/ui/images/cwiconC.png
-Path=/home/cwuser/Desktop/chipwhisperer_oasis_lab/software/
+Icon=/home/cwuser/Desktop/PowerAnalysisLab/software/chipwhisperer/common/ui/images/cwiconC.png
+Path=/home/cwuser/Desktop/PowerAnalysisLab/software/
 GenericName=ChipWhisperer Capture Tool
 Comment[en_CA]=ChipWhisperer Capture Tool
